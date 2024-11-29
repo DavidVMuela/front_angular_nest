@@ -10,6 +10,10 @@ const routes: Routes = [
     component:LayoutComponent,
     children:[
       {
+        path:"",
+        component:LayoutComponent
+      },
+      {
         path:"perfil",
         component:PerfilComponent
       },
